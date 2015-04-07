@@ -15,7 +15,35 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
-$positive:                        teal !default;
+/**
+* ---- white colors ----
+* cloud color : #ecf0f1 
+* white smoke : #ECECEC
+* iron : #DADFE1
+*
+* ---- blue colors ------
+* royal blue : #4183D7
+*
+* ---- coleurs sombres --
+* lynch :6C7A89
+* midnight blue : #2c3e50
+* ebonay clay : #22313F
+* PICKLED BLUEWOOD : #34495E
+* Madison : #2C3E50
+* 
+* ----- colors vertes --
+* niagara : #049372
+*/
+$light:                           #ecf0f1 !default; //cloud color : white clair
+$stable:                          #ECECEC !default; //white smoke : white clair
+$positive:                        #4183D7 !default; //royal bleue :blue
+$calm:                            #6C7A89 !default; //lynch : sombre
+$balanced:                        #2ABB9B !default; //niagara : vert
+$energized:                       #2c3e50 !default;  //midnight blue : noir blueuté
+$assertive:						  #22313F !default;
+
+$royal:                           #22313F !default; //pickled bluewood : noir
+$dark:                            #2C3E50 !default; //madison : noir
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;

@@ -8,8 +8,8 @@ $positive:                        #387ef5 !default;
 $calm:                            #11c1f3 !default;
 $balanced:                        #33cd5f !default;
 $energized:                       #ffc900 !default;
-$assertive:                       #ef473a !default;
-$royal:                           #886aea !default;
+$assertive:                       #22313F !default;
+$royal:                           #22313F !default;
 $dark:                            #444 !default;
 
 
@@ -407,8 +407,8 @@ $list-header-margin-top:          20px !default;
 // Cards
 // -------------------------------
 
-$card-header-bg:                  #F5F5F5 !default;
-$card-body-bg:                    #fff !default;
+$card-header-bg:                  teal !default;
+$card-body-bg:                    teal !default;
 $card-footer-bg:                  #F5F5F5 !default;
 
 $card-padding:                    10px !default;
@@ -416,7 +416,7 @@ $card-border-width:               1px !default;
 
 $card-border-color:               #ccc !default;
 $card-border-radius:              2px !default;
-$card-box-shadow:                 0 1px 3px rgba(0, 0, 0, .3) !default;
+$card-box-shadow:                 0 0px 0px rgba(0, 0, 0, .3) !default;
 
 
 // Forms

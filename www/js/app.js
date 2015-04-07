@@ -27,10 +27,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
-  $stateProvider
 
-  // setup an abstract state for the tabs directive
-    .state('tab', {
+    // setup an abstract state for the tabs directive
+  $stateProvider.state('tab', {
     url: "/tab",
     abstract: true,
     templateUrl: "templates/tabs.html"
@@ -66,7 +65,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
-
+  .state('intro', {
+        url: '/intro',
+        templateUrl: 'templates/intro.html',
+        controller: 'IntroCtrl'
+  })
   .state('tab.account', {
     url: '/account',
     views: {
